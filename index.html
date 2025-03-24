@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+
+    <!-- Boxicons CDN link -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate/animate.css" />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Portfolio - Yanuar Eka Susila</title>
+  </head>
+
+  <body id="body-pd">
+    <container class="header">
+      <header class="header" id="header">
+        <div class="header_toggle"><i class="bx bx-menu" id="header-toggle"></i></div>
+        <div class="mode">
+          <i type="button" onclick="setDarkMode(false)" class="btn btn-outline-transparant darkmodebutton"><i class="bx bxs-sun"></i></i>
+          <i type="button" onclick="setDarkMode(true)" class="btn btn-outline-transparant darkmodebutton"><i class="bx bxs-moon"></i></i>
+          <!-- <button type="button" class="btn btn-outline-dark darkmodebutton"><i
+                        class='bx bxs-color-fill'></i></button> -->
+        </div>
+      </header>
+    </container>
+
+    <container class="lheader">
+      <div class="l-navbar" id="nav-bar">
+        <nav class="nav animate__animated animate__fadeInLeft">
+          <div>
+            <a href="#top" class="nav_logo">
+              <i class="bx bx-user nav_logo-icon"></i>
+              <span class="nav_logo-name">My Portfolio</span>
+            </a>
+            <div class="nav_list">
+              <a href="#top" class="nav_link active">
+                <i class="bx bx-category-alt nav_icon"></i>
+                <span class="nav_name">Dashboard</span>
+              </a>
+              <a href="#project" class="nav_link">
+                <i class="bx bx-vector nav_icon"></i>
+                <span class="nav_name"> Project</span>
+              </a>
+              <a href="#skills" class="nav_link">
+                <i class="bx bx-network-chart nav_icon"></i>
+                <span class="nav_name">Skills</span>
+              </a>
+              <a href="#careerexperience" class="nav_link">
+                <i class="bx bx-history nav_icon"></i>
+                <span class="nav_name">Career</span>
+              </a>
+              <a href="#contact" class="nav_link">
+                <i class="bx bxs-contact nav_icon"></i>
+                <span class="nav_name">Contact</span>
+              </a>
+              <a href="#aboutme" class="nav_link">
+                <i class="bx bx-info-circle nav_icon"></i>
+                <span class="nav_name">About Me</span>
+              </a>
+            </div>
+          </div>
+          <!-- <a href="#" class="nav_link">
+                    <i class='bx bx-log-out nav_icon'></i>
+                    <span class="nav_name">SignOut</span>
+                </a> -->
+        </nav>
+      </div>
+    </container>
+
+    <!-- ======= Hero Section ======= -->
+    <div class="row">
+      <div class="col-lg-9">
+        <section id="hero" class="hero d-flex align-items-center">
+          <div class="container">
+            <div class="row mainpage mt-5">
+              <div class="col-lg-6 d-flex flex-column justify-content-center info">
+                <h5 class="animate__animated animate__fadeInLeft">Hello, I'm</h5>
+                <h1 class="animate__animated animate__fadeInLeft">Yanuar Eka Susila</h1>
+                <h4 class="mb-5 animate__animated animate__fadeInLeft">Fullstack Developer</h4>
+                <div class="animate__animated animate__fadeInLeft">
+                  <div class="text-center text-lg-start">
+                    <a class="socmed bx bxl-github" href="https://github.com/xsohe"></a>
+                    <a class="socmed bx bxl-linkedin" href="https://www.linkedin.com/in/yanuar-eka-susila-222629225/"></a>
+                    <a class="socmed bx bxl-instagram-alt" href="https://www.instagram.com/yanuare.ka/"></a>
+                    <a class="socmed bx bxl-facebook" href="https://web.facebook.com/yanuar.ekas.5/"></a>
+                    <a class="twitter bx bxl-twitter" href="#"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 hero-img info2 animate__animated animate__fadeInRight">
+                <img src="assets/images/gw.png" class="img-fluid rounded" width="80%" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- End Hero -->
+        <section class="careerexperience mt-5" id="careerexperience">
+          <div class="container">
+            <div class="row mt-5">
+              <div class="col-lg-6 text-center text-lg-end career__box">
+                <h3 class="bold pt-3">CAREER</h3>
+                <h5 class="mt-3">Smk Negeri 4 Kuningan</h5>
+                <p>RPL</p>
+                <p>2018 - 2021</p>
+                <h5>Universitas Pamulang</h5>
+                <p>Informatics Engineering</p>
+                <p>2021 - Now</p>
+              </div>
+              <div class="col-lg-6 text-center text-lg-start experience__box">
+                <h3 class="bold pt-3">EXPERIENCE</h3>
+                <h5 class="mt-3">Freelance Fullstack Developer</h5>
+                <p>2023 - Now</p>
+                <h5>Intern at Abbauf Mulia Konsultan Teknologi</h5>
+                <p>4 Month 2024</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="project">
+          <div class="container animate__animated animate__fadeInUp">
+            <h3 class="text-center mt-5 familiarText bold animate__animated animate__fadeInUp" id="project">PROJECT</h3>
+
+            <!-- Project 1 -->
+            <div class="row mt-5">
+              <div class="col-lg-6">
+                <div id="carouselProject1" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="imgItem bwtofc" src="assets/images/project/digitalsignature-1.png" width="100%" alt="Eletter Digital Signature 1" />
+                    </div>
+                    <div class="carousel-item">
+                      <img class="imgItem bwtofc" src="assets/images/project/digitalsignature-2.png" width="100%" alt="Eletter Digital Signature 2" />
+                    </div>
+                    <div class="carousel-item">
+                      <img class="imgItem bwtofc" src="assets/images/project/digitalsignature-3.png" width="100%" alt="Eletter Digital Signature 3" />
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselProject1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselProject1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="col-lg-6 mt-3">
+                <h3 class="bold mb-3">Suket Online - Digital Signature</h3>
+                <div class="jobdiv">
+                  <span class="jobs">Boostrap</span>
+                  <span class="jobs">Laravel</span>
+                </div>
+                <h5 class="jobText mt-3">
+                  Suket Online is a web-based platform designed to simplify and digitalize the issuance of official letters for residents of RW 04 Buana Gardenia Housing. This system enables residents to request, process, and receive
+                  official letters online, eliminating the need for manual paperwork and physical visits to the RW office.
+                </h5>
+                <!-- <a href="" class="btn btn-dark btn-lg mt-5 readmore">Read More <i class="bx bx-right-arrow-alt"></i></a> -->
+              </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="row mt-5">
+              <div class="col-lg-6">
+                <div id="carouselProject2" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="imgItem bwtofc" src="assets/images/project/eletter1.png" width="100%" alt="BloodBank 1" />
+                    </div>
+                    <div class="carousel-item">
+                      <img class="imgItem bwtofc" src="assets/images/project/eletter2.png" width="100%" alt="BloodBank 2" />
+                    </div>
+                    <div class="carousel-item">
+                      <img class="imgItem bwtofc" src="assets/images/project/eletter3.png" width="100%" alt="BloodBank 2" />
+                    </div>
+                    <div class="carousel-item">
+                      <img class="imgItem bwtofc" src="assets/images/project/eletter4.png" width="100%" alt="BloodBank 2" />
+                    </div>
+                    <div class="carousel-item">
+                      <img class="imgItem bwtofc" src="assets/images/project/eletter5.png" width="100%" alt="BloodBank 2" />
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselProject2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselProject2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="col-lg-6 mt-3">
+                <h3 class="bold mb-3">Eletter - Monitoring Disposition</h3>
+                <div class="jobdiv">
+                  <span class="jobs">UI Design</span>
+                  <span class="jobs">Boostrap</span>
+                  <span class="jobs">Laravel</span>
+                </div>
+                <h5 class="jobText mt-3">
+                  E-Letter is an advanced web-based system designed to streamline the monitoring, tracking, and management of official letter dispositions within an organization. It provides a centralized and efficient platform for handling
+                  incoming and outgoing correspondence, ensuring that every document is processed in a structured and traceable manner.
+                </h5>
+                <!-- <a href="" class="btn btn-dark btn-lg mt-5 readmore">Read More <i class="bx bx-right-arrow-alt"></i></a> -->
+              </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="row mt-5">
+              <div class="col-lg-6">
+                <div id="carouselProject3" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="imgItem bwtofc" src="assets/images/project/takaki1.png" width="100%" alt="TBA 1" />
+                    </div>
+                    <div class="carousel-item">
+                      <img class="imgItem bwtofc" src="assets/images/project/takaki2.png" width="100%" alt="TBA 2" />
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselProject3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselProject3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="col-lg-6 mt-3">
+                <h3 class="bold mb-3">Takaki App - Tracking Gas</h3>
+                <div class="jobdiv">
+                  <span class="jobs">Flutter</span>
+                  <span class="jobs">Laravel</span>
+                </div>
+                <h5 class="jobText mt-3">
+                  Takaki APP is a comprehensive Android-based solution designed to record, track, and monitor gas deliveries with ease and accuracy. This app streamlines the entire delivery process, ensuring that every transaction is
+                  well-documented and easily accessible.
+                </h5>
+                <!-- <a href="" class="btn btn-dark btn-lg mt-5 readmore">Read More <i class="bx bx-right-arrow-alt"></i></a> -->
+              </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="row mt-5">
+              <div class="col-lg-6">
+                <div id="carouselProject3" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="imgItem bwtofc" src="assets/images/project/kostapp1.png" width="100%" alt="kostapp" />
+                    </div>
+                    <div class="carousel-item">
+                      <img class="imgItem bwtofc" src="assets/images/project/kostapp2.png" width="100%" alt="kostapp" />
+                    </div>
+                    <div class="carousel-item">
+                      <img class="imgItem bwtofc" src="assets/images/project/kostapp3.png" width="100%" alt="kostapp" />
+                    </div>
+                    <div class="carousel-item">
+                      <img class="imgItem bwtofc" src="assets/images/project/kostapp4.png" width="100%" alt="kostapp" />
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselProject3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselProject3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="col-lg-6 mt-3">
+                <h3 class="bold mb-3">KostApp - Management</h3>
+                <div class="jobdiv">
+                  <span class="jobs">Laravel</span>
+                  <span class="jobs">Fillament</span>
+                </div>
+                <h5 class="jobText mt-3">
+                  Syaibah & Kholilah Kost Management App is an user-friendly platform designed to simplify the management of rental rooms, enabling real-time tracking of occupied and available rooms while also facilitating digital payment
+                  processing for tenants.
+                </h5>
+                <!-- <a href="" class="btn btn-dark btn-lg mt-5 readmore">Read More <i class="bx bx-right-arrow-alt"></i></a> -->
+              </div>
+            </div>
+
+            <!-- See More Button -->
+            <!-- <center>
+              <a href="" class="btn btn-dark btn-lg mt-5 seemore">See More Projects</a>
+            </center> -->
+          </div>
+        </section>
+        <section class="2 mb-5">
+          <div class="container">
+            <h3 class="text-center familiarText bold mb-5 mt-5" id="skills">SKILLS</h3>
+            <div class="familiar mt-3">
+              <div class="row familiar">
+                <div class="mt-1 col-xl-1 col-lg-2 col-md-3 col-3">
+                  <img src="assets/images/familiar/css.png" width="100%" alt="" />
+                </div>
+                <div class="mt-1 col-xl-1 col-lg-2 col-md-3 col-3">
+                  <img src="assets/images/familiar/js.png" width="100%" alt="" />
+                </div>
+                <div class="mt-1 col-xl-1 col-lg-2 col-md-3 col-3">
+                  <img src="assets/images/familiar/bootstrap.png" width="100%" alt="" />
+                </div>
+                <div class="mt-1 col-xl-1 col-lg-2 col-md-3 col-3">
+                  <img src="assets/images/familiar/figma.png" width="100%" alt="" />
+                </div>
+                <div class="mt-1 col-xl-1 col-lg-2 col-md-3 col-3">
+                  <img src="assets/images/familiar/mysql.png" width="90%" alt="" />
+                </div>
+              </div>
+              <div class="row familiar">
+                <div class="mt-1 col-xl-1 col-lg-2 col-md-3 col-3">
+                  <img src="assets/images/familiar/phplogo.png" width="100%" alt="" />
+                </div>
+                <div class="mt-1 col-xl-1 col-lg-2 col-md-3 col-3">
+                  <img src="assets/images/familiar/flutterlogo.png" width="100%" alt="" />
+                </div>
+                <div class="mt-1 col-xl-1 col-lg-2 col-md-3 col-3">
+                  <img src="assets/images/familiar/tailwind.png" width="100%" alt="" />
+                </div>
+                <div class="mt-1 col-xl-1 col-lg-2 col-md-3 col-3">
+                  <img src="assets/images/familiar/react.png" width="100%" alt="" />
+                </div>
+                <div class="mt-1 col-xl-1 col-lg-2 col-md-3 col-3">
+                  <img src="assets/images/familiar/nodejs.png" width="80%" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="aboutme mt-5">
+          <div class="container mt-5">
+            <h3 class="text-center color-white f amiliarText bold mb-5 pt-5 mt-5" id="aboutme">ABOUT ME</h3>
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 pb-5">
+                <img class="center" src="assets/images/real_w.png" alt="" />
+              </div>
+              <div class="col-xl-6 col-lg-6 pb-5">
+                <p class="centerText">
+                  Currently Freelance Programmer 1+ years freelance Fullstack Developer that focused on backend development with PHP, JS and Flutter. Laravel Backend Developer with 2+ years experience, with Total 3+ years experience have
+                  proven themselves as problem solvers, quick thinkers and also the skill to adapt to different situations.
+                </p>
+                <br />
+                <p>
+                  I am a junior programmer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a
+                  team, you'll learn faster and much more.
+                </p>
+                <a href="" class="btn btn-lg mt-5 contactme">Contact Me </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="col-lg-3 career animate__animated animate__fadeInRight">
+        <div class="container">
+          <h5 class="bold text-center text-lg-start">TALK TO ME</h5>
+          <div class="card">
+            <div class="card-header">
+              <h5>Yanuar Eka Susila</h5>
+              <p>Online</p>
+            </div>
+            <div class="card-body chat-care">
+              <ul class="chat">
+                <li class="agent clearfix">
+                  <span class="chat-img left clearfix mx-2">
+                    <img src="assets/images/ww.png" width="100%" alt="Agent" class="img-circle" />
+                  </span>
+                  <div class="chat-body clearfix">
+                    <p>Hey, Welcome to my website! Lets talk with me :)</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <div class="input-group">
+                <input id="btn-input" type="text" class="form-control input-sm pesan" placeholder="Ketik Pesan" />
+                <span class="input-group-btn">
+                  <button class="btn btn-dark kirim shadow-none" id="btn-chat">
+                    <i class="bx bx-send"></i>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <section class="maps mt-5">
+            <h5 class="bold text-center text-lg-start mt-5">LOCATION</h5>
+            <iframe
+              class="mapsItem bwtofc"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3866753001093!2d106.70709927786234!3d-6.3439432772620865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e582abc42b2f%3A0xfd59b1b03cb8bad9!2sPamulang%20residence%2C%20Jl.%20Parakan%20Jl.%20Benda%20Raya%20No.20%2C%20RT.004%2FRW.001%2C%20Pd.%20Benda%2C%20Kec.%20Pamulang%2C%20Kota%20Tangerang%20Selatan%2C%20Banten%2015416!5e0!3m2!1sid!2sid!4v1742813045863!5m2!1sid!2sid"
+              width="100%"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </section>
+
+          <!-- <h5 class="bold text-center text-lg-start mt-5">GALERY</h5>
+          <div class="box1-right">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://source.unsplash.com/random/340x240/?programming" class="d-block w-100 bwtofc" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="https://source.unsplash.com/random/340x240/?mount" class="d-block w-100 bwtofc" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="https://source.unsplash.com/random/340x240/?forest" class="d-block w-100 bwtofc" alt="..." />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div> -->
+          <h5 class="bold text-center text-lg-start mt-5" id="contact">CONTACT ME</h5>
+          <div class="contact">
+            <form class="form-floating">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control pesan" id="exampleFormControlInput1" placeholder="name@gmail.com" />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control pesan" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="button" class="btn btn-dark submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <section class="copyright mt-5 mb-5">
+        <div class="cr text-center">Copyright&copy; 2021 All <a href="#">Yanuar Eka Susila</a> Rights Reserved</div>
+      </section>
+    </div>
+
+    <!-- My JS -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+
+    <script>
+      function setDarkMode(isDark) {
+        if (isDark) {
+          document.body.setAttribute('id', 'darkmode');
+        } else {
+          document.body.setAttribute('id', '');
+        }
+      }
+    </script>
+  </body>
+</html>
